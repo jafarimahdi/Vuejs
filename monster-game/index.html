@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>Monster Slayer</title>
@@ -57,10 +57,12 @@
       </section>
 
       <!-- result place for input text  -->
-      <section class="row log">
+      <section class="row log" v-if="turns.length > 0">
         <div class="small-12 columns">
           <ul>
-            <li></li>
+            <li v-for="item in turns"
+                :class="{'player-turn':item.isPlayer, 'monster-turn':!item.isPlayer}"
+            >{{ item.text }} </li>
           </ul>
         </div>
       </section>
