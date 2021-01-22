@@ -1,3 +1,7 @@
 {
-    "explorer.openEditors.visible": 12
+    "explorer.openEditors.visible": 12,
+    "window.zoomLevel": -1,
+    "workbench.colorCustomizations": {
+        "sideBar.foreground": "#fff"
+    }
 }
