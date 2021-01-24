@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-      ? '/vue/sample1/dist/'
+      ? '/vue/sample1/dist'
       : '/'
   }
