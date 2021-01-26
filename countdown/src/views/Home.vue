@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>hello form the home</h3>
+    <h3>hello form the home as first page</h3>
     
     <counter />
   </div>
