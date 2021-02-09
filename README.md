@@ -2,10 +2,10 @@
 
 practicing around Vue 3 and creating some simple apps form it
 
-. monster Game 
+. Monster Game 
 
-. punch Game
+. Punch Game
 
-. weather App
+. Weather App
 
-.sample1( pic gallery)
+.Sample1( pic gallery)
